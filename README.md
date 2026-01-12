@@ -1,8 +1,9 @@
 # 🚀 Streaming Markdown Parser
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/14PTiTgQyddRvlzyYhfdLMT1Z1xktldRO/view?usp=sharing" alt="Streaming Markdown Parser Demo" width="750">
+  <img src="formi.png" alt="Streaming Markdown Parser Demo" width="750">
 </p>
+
 
 <p align="center">
   <i>A real-time Markdown parser that styles content while it is being streamed.</i>
