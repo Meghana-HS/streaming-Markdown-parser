@@ -1,12 +1,28 @@
 # 🚀 Streaming Markdown Parser
 
-A lightweight **streaming Markdown parser** that incrementally parses and renders Markdown text as it arrives in chunks — similar to how AI assistants stream responses in real time.
+<p align="center">
+  <img src="https://drive.google.com/file/d/14PTiTgQyddRvlzyYhfdLMT1Z1xktldRO/view?usp=sharing" alt="Streaming Markdown Parser Demo" width="750">
+</p>
+
+<p align="center">
+  <i>A real-time Markdown parser that styles content while it is being streamed.</i>
+</p>
 
 ---
 
-## 📝 Task
+## 📝 Overview
 
-Build a Markdown parser that works **while text is streaming**, applying styles immediately when Markdown syntax is detected.
+This project implements a **streaming Markdown parser** that incrementally parses and renders Markdown text as it arrives in chunks, similar to how AI assistants like ChatGPT stream responses.
 
-Core implementation lives in:
+The parser applies styles **optimistically**, ensuring that Markdown elements are rendered immediately without re-rendering the entire DOM.
 
+---
+
+## ✨ Features
+
+- 🔹 **Inline Code Parsing**  
+  Supports single backticks  
+  `print("hello world")`
+
+- 🔹 **Code Block Parsing**  
+  Supports triple backticks  
